@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0652f70c-9b23-47d8-922f-780fe502b097" name="Changes" comment="Normalization">
-      <change afterPath="$PROJECT_DIR$/src/chunking/chunker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pipeline.py" afterDir="false" />
+    <list default="true" id="0652f70c-9b23-47d8-922f-780fe502b097" name="Changes" comment="Add recursive and sementic chunking">
+      <change afterPath="$PROJECT_DIR$/data/chunks/save_chunks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chunking/chunker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chunking/chunker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ingestion/ingest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ingestion/ingest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pipeline.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,7 @@
     "Python.ingest.executor": "Run",
     "Python.main.executor": "Run",
     "Python.pdf_loader.executor": "Run",
+    "Python.pipeline.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -102,7 +104,23 @@
       <option name="project" value="LOCAL" />
       <updated>1781143948850</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creating the pipeline + fixed size chunking">
+      <option name="closed" value="true" />
+      <created>1781145119289</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1781145119289</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add recursive and sementic chunking">
+      <option name="closed" value="true" />
+      <created>1781148484108</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1781148484108</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +138,8 @@
     <MESSAGE value="Init" />
     <MESSAGE value="add ingestion function" />
     <MESSAGE value="Normalization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Normalization" />
+    <MESSAGE value="Creating the pipeline + fixed size chunking" />
+    <MESSAGE value="Add recursive and sementic chunking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add recursive and sementic chunking" />
   </component>
 </project>

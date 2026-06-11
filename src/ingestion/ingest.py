@@ -28,7 +28,6 @@ def ingest_documents(data_dir :str):
             case _:
                 print(f"Skipping unsupported file: {file.name}")
                 continue
-        text = clean_text(text)
         documents.append(
             {
                 "file_name": file.name,
