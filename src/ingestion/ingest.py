@@ -2,6 +2,7 @@ from pathlib import Path
 
 from src.loaders.pdf_loader import load_pdf_file
 from src.loaders.text_loader import load_text_file
+from src.processing.text_cleaner import clean_text
 
 
 def ingest_documents(data_dir :str):
@@ -9,6 +10,7 @@ def ingest_documents(data_dir :str):
     for file in Path(data_dir).iterdir():
         if not file.is_file():
             continue
+        text = ""
         match file.suffix.lower():
 
             case ".txt":
@@ -26,7 +28,7 @@ def ingest_documents(data_dir :str):
             case _:
                 print(f"Skipping unsupported file: {file.name}")
                 continue
-
+        text = clean_text(text)
         documents.append(
             {
                 "file_name": file.name,
