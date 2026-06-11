@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0652f70c-9b23-47d8-922f-780fe502b097" name="Changes" comment="add ingestion function">
-      <change afterPath="$PROJECT_DIR$/src/processing/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/processing/text_cleaner.py" afterDir="false" />
+    <list default="true" id="0652f70c-9b23-47d8-922f-780fe502b097" name="Changes" comment="Normalization">
+      <change afterPath="$PROJECT_DIR$/src/chunking/chunker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ingestion/ingest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ingestion/ingest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="3EvS9jAiwRwGMzaWYJbPjAhSo1k" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,6 +58,11 @@
     "last_opened_file_path": "C:/Users/Dell/Desktop/Projects/RAG"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Desktop\Projects\RAG\src\processing" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -84,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781143646348</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Normalization">
+      <option name="closed" value="true" />
+      <created>1781143948850</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1781143948850</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <MESSAGE value="add ingestion function" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ingestion function" />
+    <MESSAGE value="Normalization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Normalization" />
   </component>
 </project>

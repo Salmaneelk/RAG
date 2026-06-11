@@ -37,5 +37,5 @@ def ingest_documents(data_dir :str):
             }
         )
 
-        return documents
+    return documents
 
