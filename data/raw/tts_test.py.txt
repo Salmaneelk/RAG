@@ -1,0 +1,19 @@
+import torch
+import soundfile as sf
+from qwen_tts import Qwen3TTSModel
+
+device = "cpu"
+
+model = Qwen3TTSModel.from_pretrained(
+    "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    device_map=device,
+    dtype=torch.float32,
+)
+
+wavs, sr = model.generate(
+    text="Hello, this is Qwen TTS running on my laptop.",
+    language="English",
+)
+
+sf.write("output.wav", wavs[0], sr)
+print("Done")
